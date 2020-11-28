@@ -18,7 +18,7 @@ defaults:
 
 jobs:
   check-daskhub-chart-version:
-    if: github.repository == 'pangeo-data/pangeo-cloud-federation'
+    if: github.repository == 'consideratio/pangeo-cloud-federation'
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
